@@ -22,7 +22,7 @@ const RootLayout: React.FC<Props> = async ({ children, params }) => {
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="bg-[#f5f5f5]">
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
