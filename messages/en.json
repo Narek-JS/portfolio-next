@@ -1,3 +1,9 @@
 {
-  "home": {}
+  "common": {
+    "name": "Narek",
+    "lastName": "Petrosyan",
+    "home": "Home",
+    "resume": "Resume",
+    "language": "Language"
+  }
 }

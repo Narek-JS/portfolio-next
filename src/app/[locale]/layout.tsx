@@ -1,17 +1,17 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { Header } from "@/components/Header";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
 import "@/styles/globals.css";
 
-export default async function RootLayout({
-  children,
-  params,
-}: {
+interface Props {
   children: React.ReactNode;
   params: { locale: string };
-}) {
+}
+
+const RootLayout: React.FC<Props> = async ({ children, params }) => {
   const { locale } = await Promise.resolve(params);
 
   if (!routing.locales.includes(locale as any)) {
@@ -24,9 +24,12 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <Header />
           {children}
         </NextIntlClientProvider>
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
