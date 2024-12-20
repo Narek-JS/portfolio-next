@@ -4,6 +4,29 @@
     "lastName": "Petrosyan",
     "home": "Home",
     "resume": "Resume",
-    "language": "Language"
+    "language": "Language",
+    "bannerImageAlt": "Banner Image",
+    "profileImageAlt": "Profile Image"
+  },
+  "aboutMe": {
+    "title-slice-one": "About",
+    "title-slice-two": "Me",
+    "description-slice-one": "Hello! I'm Narek Petrosyan, a passionate JavaScript Software Developer with a strong affinity for front-end development. I have a deep interest in building intuitive, dynamic, and user-friendly web and mobile applications. My professional journey has been fueled by a love for creating impactful digital experiences and continuously exploring new technologies.",
+    "description-slice-two": "Beyond my technical pursuits, I enjoy swimming and snowboarding, two activities that help me refresh my mind and think from new perspectives. These hobbies bring balance to my life and inspire creativity, whether I’m riding the slopes or diving into new projects."
+  },
+  "personalInfo": {
+    "title-slice-one": "Personal",
+    "title-slice-two": "Information",
+    "age": "Age",
+    "address": "Address",
+    "phone": "Phone",
+    "mail": "Email",
+    "city": "Yerevan, Armenia"
+  },
+  "hobby": {
+    "title-slice-one": "What I Love",
+    "title-slice-two": "To Do",
+    "description-slice-one": "In addition to my career, I thrive on solving complex problems and creating seamless digital experiences. I love staying ahead of the curve in front-end development by learning and applying the latest tools and technologies.",
+    "description-slice-two": "Outside of coding, swimming and snowboarding are my go-to activities for relaxation and inspiration. These hobbies allow me to clear my mind, explore fresh perspectives, and maintain a balance between work and personal life. Whether it’s riding waves or carving snow, these experiences enrich my creativity and keep me motivated."
   }
 }
