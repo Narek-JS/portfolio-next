@@ -28,5 +28,14 @@
     "title-slice-two": "To Do",
     "description-slice-one": "In addition to my career, I thrive on solving complex problems and creating seamless digital experiences. I love staying ahead of the curve in front-end development by learning and applying the latest tools and technologies.",
     "description-slice-two": "Outside of coding, swimming and snowboarding are my go-to activities for relaxation and inspiration. These hobbies allow me to clear my mind, explore fresh perspectives, and maintain a balance between work and personal life. Whether it’s riding waves or carving snow, these experiences enrich my creativity and keep me motivated."
+  },
+  "downloadCv": {
+    "resumeName": "Narek Petrosyan Resume",
+    "buttonText-slice-one": "Download",
+    "buttonText-slice-two": "CV"
+  },
+  "footer": {
+    "text-one": "You have any questions? Contact with",
+    "text-two": "Copyright © {year}, Portfolio, all rights reserved"
   }
 }
