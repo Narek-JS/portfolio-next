@@ -6,7 +6,7 @@ const Hobby: React.FC = () => {
   const translation = useTranslations("hobby");
 
   return (
-    <div className="flex flex-col gap-[10px] max-w-[500px]">
+    <div className="flex flex-col gap-[20px] max-w-[500px]">
       <h3 className="flex items-center gap-[5px]">
         <span className="text-[#212121] font-bold tracking-wide">
           {translation("title-slice-one")}

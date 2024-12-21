@@ -6,6 +6,7 @@ import { PhoneIcon } from "../Icons/PhoneIcon";
 import { MailIcon } from "../Icons/MailIcon";
 import { useTranslations } from "next-intl";
 import { AgeIcon } from "../Icons/AgeIcon";
+import { DownloadCv } from "../DownloadCv";
 import Link from "next/link";
 
 const PersonalInfo: React.FC = () => {
@@ -56,6 +57,7 @@ const PersonalInfo: React.FC = () => {
           </Link>
         </div>
       </div>
+      <DownloadCv />
     </div>
   );
 };
