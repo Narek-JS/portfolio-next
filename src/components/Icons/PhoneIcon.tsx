@@ -1,4 +1,6 @@
-const PhoneIcon: React.FC = () => {
+import { SVGProps } from "react";
+
+const PhoneIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
       stroke="currentColor"
@@ -8,6 +10,7 @@ const PhoneIcon: React.FC = () => {
       height="1em"
       width="1em"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <path
         fillRule="evenodd"

@@ -4,6 +4,7 @@
     "lastName": "Petrosyan",
     "home": "Home",
     "resume": "Resume",
+    "projects": "Projects",
     "language": "Language",
     "bannerImageAlt": "Banner Image",
     "profileImageAlt": "Profile Image"
@@ -33,6 +34,9 @@
     "resumeName": "Narek Petrosyan Resume",
     "buttonText-slice-one": "Download",
     "buttonText-slice-two": "CV"
+  },
+  "projects": {
+    "fastTvImageAlt": "fast TV project image"
   },
   "footer": {
     "text-one": "You have any questions? Contact with",

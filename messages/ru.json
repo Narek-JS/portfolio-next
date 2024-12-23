@@ -4,6 +4,7 @@
     "lastName": "Петросян",
     "home": "Главная",
     "resume": "Резюме",
+    "projects": "Проекты",
     "language": "Язык",
     "bannerImageAlt": "Изображение Баннера",
     "profileImageAlt": "Изображение Профиля"
@@ -33,6 +34,9 @@
     "resumeName": "Нарек Петросян Резюме",
     "buttonText-slice-one": "Скачать",
     "buttonText-slice-two": "резюме"
+  },
+  "projects": {
+    "fastTvImageAlt": "Изображение Проекта fast TV"
   },
   "footer": {
     "text-one": "Есть вопросы? Свяжитесь с нами",

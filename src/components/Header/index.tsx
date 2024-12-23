@@ -2,8 +2,8 @@
 
 import { Container } from "@/components/Container";
 import { Link, usePathname } from "@/navigation";
-import { ROUTES } from "@/constants/routes";
 import { useTranslations } from "next-intl";
+import { ROUTES } from "@/constants/routes";
 import { Fragment } from "react";
 import classNames from "classnames";
 
@@ -42,6 +42,16 @@ const Header: React.FC = () => {
               })}
             >
               {translation("resume")}
+            </Link>
+
+            <Link
+              prefetch={true}
+              href={ROUTES.PROJECTS}
+              className={classNames("text-[#212121] font-light tracking-wide", {
+                "border-b-[2px] border-[#005900]": pathname === ROUTES.PROJECTS,
+              })}
+            >
+              {translation("projects")}
             </Link>
 
             <button className="cursor-pointer">
