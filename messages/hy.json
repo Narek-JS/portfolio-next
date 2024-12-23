@@ -4,6 +4,7 @@
     "lastName": "Պետրոսյան",
     "home": "Գլխավոր",
     "resume": "Կենսագրություն",
+    "projects": "Նախագծեր",
     "language": "Լեզու",
     "bannerImageAlt": "Պրոֆիլի Նկար",
     "profileImageAlt": "Պրոֆիլի Նկար"
@@ -33,6 +34,9 @@
     "resumeName": "Նարեկ Պետրոսյան Ռեզյումե",
     "buttonText-slice-one": "Ներբեռնել",
     "buttonText-slice-two": "Ռեզյումեն"
+  },
+  "projects": {
+    "fastTvImageAlt": "fast TV Նախագծի Նկար"
   },
   "footer": {
     "text-one": "Ունե՞ք հարցեր: Կապվեք մեզ հետ՝",
