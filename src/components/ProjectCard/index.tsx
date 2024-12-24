@@ -4,6 +4,7 @@ import { ProjectInfoIcon } from "../Icons/ProjectInfoIcon";
 import { Project, ProjectDevice } from "@/types/project";
 import { DesktopIcon } from "../Icons/DesktopIcon";
 import { MobileIcon } from "../Icons/MobileIcon";
+import { Tooltip } from "@nextui-org/tooltip";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import Image from "next/image";
@@ -29,26 +30,37 @@ const ProjectCard: React.FC<Props> = (props) => {
     <div className="max-w-[290px] w-full p-[15px] flex flex-col gap-[15px] shadow-lg bg-[#FFFFFF] rounded-lg duration-200 hover:shadow-2xl">
       <div className="w-full max-h-[350px] overflow-hidden">
         <Image
-          alt={translation(altTranslation)}
-          src={src}
-          width={260}
-          height={345}
           className="w-full object-cover hover:animate-auto-scroll"
+          alt={translation(altTranslation)}
+          height={345}
+          width={260}
+          src={src}
         />
       </div>
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-[5px]">
-          <ProjectInfoIcon />
+        <div className="flex items-center gap-[10px]">
+          <Tooltip
+            className="bg-[#FFFFFF] shadow-lg rounded p-[10px] max-w-[400px] max-h-[320px] overflow-auto custom-scrollbar"
+            content={translation(props.descriptionTranslation)}
+            placement="top-start"
+          >
+            <ProjectInfoIcon />
+          </Tooltip>
           <DesktopIcon
-            onClick={() => setProjectDevice("desktop")}
             fill={projectDevice === "desktop" ? "#005900" : "#212121"}
+            onClick={() => setProjectDevice("desktop")}
           />
           <MobileIcon
-            onClick={() => setProjectDevice("mobile")}
             fill={projectDevice === "mobile" ? "#005900" : "#212121"}
+            onClick={() => setProjectDevice("mobile")}
           />
         </div>
-        <Link href={props.link.href}>{props.link.text}</Link>
+        <Link
+          className="underline text-[#005900] font-bold"
+          href={props.link.href}
+        >
+          {props.link.text}
+        </Link>
       </div>
     </div>
   );
