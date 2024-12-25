@@ -27,7 +27,7 @@ const ProjectCard: React.FC<Props> = (props) => {
       : props.mobileImage.href;
 
   return (
-    <div className="max-w-[290px] w-full p-[15px] flex flex-col gap-[15px] shadow-lg bg-[#FFFFFF] rounded-lg duration-200 hover:shadow-2xl">
+    <div className="max-w-[290px] w-full p-[15px] flex flex-col justify-between gap-[15px] shadow-lg bg-[#FFFFFF] rounded-lg duration-200 hover:shadow-2xl">
       <div className="w-full max-h-[350px] overflow-hidden">
         <Image
           className="w-full object-cover hover:animate-auto-scroll"

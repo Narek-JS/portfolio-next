@@ -36,6 +36,9 @@
     "buttonText-slice-two": "CV"
   },
   "projects": {
+    "title_slice_one": "My",
+    "title_slice_two": "Projects",
+    "description": "Welcome to my projects page! Here, you can explore my works displayed as cards. Each card includes the project's title, description, and switchable images for mobile and desktop devices.",
     "fastTvImageAlt": "fast TV project image",
     "fastTvDescription": "Fast TV is the most unique platform in Armenia. It allows you to watch Fast Sports LIVE sports TV channel on any smart device or gadget.Fast TV broadcasts UEFA LEAGUES, LA LIGA, Serie A, Ligue 1, German Bundesliga, NBA, FORMULA 1, NHL, ATP Masters 1000, MARTIAL ARTS, BOXING, and other exclusive tournaments. Moreover, its own TV shows, high-ranking sports TV series, popular movies, and documentaries are shown on Fast TV channels. The media platform highlights the most important local and international events in sports, analyzing the process and results of the games and tournaments. Fast TV is accessible to everyone and everywhere with its most exclusive sports content.  Have questions about Fast TV services? Explore FAQs here. ",
     "weddingImageAlt": "Wed invite project image",
