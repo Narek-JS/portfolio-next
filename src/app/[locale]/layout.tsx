@@ -9,7 +9,7 @@ import "@/styles/globals.css";
 
 interface Props {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }
 
 const RootLayout: React.FC<Props> = async ({ children, params }) => {
