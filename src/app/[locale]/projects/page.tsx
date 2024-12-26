@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
               {translation("title_slice_two")}
             </span>
           </h1>
-          <p className="text-[#49515d] text-[13px] leading-[22px]">
+          <p className="text-[#49515d] text-[13px] leading-[22px] max-w-[500px]">
             {translation("description")}
           </p>
         </div>

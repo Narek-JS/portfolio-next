@@ -23,7 +23,7 @@ const Home = () => {
               src="/images/profileImage.png"
               width={275}
               height={275}
-              className="relative z-10 object-cover"
+              className="relative object-cover"
             />
           </div>
         </div>
