@@ -33,3 +33,7 @@ body {
 .custom-scrollbar::-webkit-scrollbar-track {
   background-color: #f3f4f6;
 }
+
+body:has(.turnoff-body-scroll) {
+  overflow: hidden;
+}

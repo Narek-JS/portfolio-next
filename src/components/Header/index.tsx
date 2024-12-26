@@ -1,20 +1,25 @@
 "use client";
 
+import { MenuBurger } from "@/components/Header/MenuBurger";
+import { HEADER_LINKS, ROUTES } from "@/constants/routes";
 import { Container } from "@/components/Container";
 import { Link, usePathname } from "@/navigation";
 import { useTranslations } from "next-intl";
-import { ROUTES } from "@/constants/routes";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
+import { MobileMenu } from "./MobileMenu";
 import classNames from "classnames";
 
+export type MenuStatus = "open" | "close";
+
 const Header: React.FC = () => {
+  const [menuStatus, setMenuStatus] = useState<MenuStatus>("close");
   const translation = useTranslations("common");
   const pathname = usePathname();
 
   return (
     <Fragment>
       <header className="w-full h-[60px] flex items-center fixed bg-[#FFFFFF] shadow z-10">
-        <Container classname="flex items-center justify-between">
+        <Container classname="flex items-center justify-between gap-[30px]">
           <p className="flex items-center gap-[5px]">
             <span className="text-[#212121] font-light tracking-wide">
               {translation("name")}
@@ -25,34 +30,25 @@ const Header: React.FC = () => {
           </p>
 
           <div className="flex items-center gap-[20px]">
-            <Link
-              prefetch={true}
-              href={ROUTES.HOME}
-              className={classNames("text-[#212121] font-light tracking-wide", {
-                "border-b-[2px] border-[#005900]": pathname === ROUTES.HOME,
-              })}
-            >
-              {translation("home")}
-            </Link>
-            <Link
-              prefetch={true}
-              href={ROUTES.RESUME}
-              className={classNames("text-[#212121] font-light tracking-wide", {
-                "border-b-[2px] border-[#005900]": pathname === ROUTES.RESUME,
-              })}
-            >
-              {translation("resume")}
-            </Link>
+            <div className="hidden sm:flex items-center gap-[10px] ">
+              {HEADER_LINKS.map(({ PAGE_LINK, TRANSLATION_TEXT }, index) => (
+                <Link
+                  key={index}
+                  prefetch={true}
+                  href={ROUTES.HOME}
+                  className={classNames(
+                    "text-[#212121] font-light tracking-wide",
+                    {
+                      "border-b-[2px] border-[#005900]": pathname === PAGE_LINK,
+                    }
+                  )}
+                >
+                  {translation(TRANSLATION_TEXT)}
+                </Link>
+              ))}
+            </div>
 
-            <Link
-              prefetch={true}
-              href={ROUTES.PROJECTS}
-              className={classNames("text-[#212121] font-light tracking-wide", {
-                "border-b-[2px] border-[#005900]": pathname === ROUTES.PROJECTS,
-              })}
-            >
-              {translation("projects")}
-            </Link>
+            <MenuBurger menuStatus={menuStatus} setMenuStatus={setMenuStatus} />
 
             <button className="cursor-pointer">
               <svg width="24px" height="24px" stroke="#005900" fill="none">
@@ -65,6 +61,7 @@ const Header: React.FC = () => {
           </div>
         </Container>
       </header>
+      {menuStatus === "open" && <MobileMenu />}
       <div className="h-[60px] -z-50 opacity-0" />
     </Fragment>
   );
