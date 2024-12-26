@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { DownloadCv } from "../DownloadCv";
 
 const Hobby: React.FC = () => {
   const translation = useTranslations("hobby");
@@ -23,6 +24,10 @@ const Hobby: React.FC = () => {
         <p className="text-[#49515d] text-[13px] leading-[22px]">
           {translation("description-slice-two")}
         </p>
+      </div>
+
+      <div className="block sm:hidden">
+        <DownloadCv />
       </div>
     </div>
   );
