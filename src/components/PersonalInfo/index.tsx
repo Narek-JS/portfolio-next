@@ -25,19 +25,19 @@ const PersonalInfo: React.FC = () => {
 
       <div className="flex text-[#49515d] text-[13px] leading-[22px]">
         <div className="flex flex-col gap-[10px]">
-          <div className="w-[100px] flex items-center gap-[5px]">
+          <div className="w-[75px] flex items-center gap-[5px]">
             <AgeIcon />
             <span>{translation("age")}</span>
           </div>
-          <div className="w-[100px] flex items-center gap-[5px]">
+          <div className="w-[75px] flex items-center gap-[5px]">
             <LocationIcon />
             <span>{translation("address")}</span>
           </div>
-          <div className="w-[100px] flex items-center gap-[5px]">
+          <div className="w-[75px] flex items-center gap-[5px]">
             <PhoneIcon />
             <span>{translation("phone")}</span>
           </div>
-          <div className="w-[100px] flex items-center gap-[5px]">
+          <div className="w-[75px] flex items-center gap-[5px]">
             <MailIcon />
             <span>{translation("mail")}</span>
           </div>
@@ -57,7 +57,9 @@ const PersonalInfo: React.FC = () => {
           </Link>
         </div>
       </div>
-      <DownloadCv />
+      <div className="hidden sm:block">
+        <DownloadCv />
+      </div>
     </div>
   );
 };

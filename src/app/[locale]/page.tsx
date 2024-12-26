@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       <div className="pt-[60px] shadow rounded-b-[15px] p-[40px] bg-[#FFFFFF]">
-        <div className="flex justify-between mb-[40px]">
+        <div className="flex flex-col-reverse sm:flex-row gap-[40px] sm:gap-[15px] justify-between mb-[40px]">
           <AboutMe />
           <PersonalInfo />
         </div>
