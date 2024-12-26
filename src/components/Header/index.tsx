@@ -18,16 +18,20 @@ const Header: React.FC = () => {
 
   return (
     <Fragment>
-      <header className="w-full h-[60px] flex items-center fixed bg-[#FFFFFF] shadow z-10">
+      <header className="w-full h-[60px] flex items-center fixed bg-[#FFFFFF] shadow z-50">
         <Container classname="flex items-center justify-between gap-[30px]">
-          <p className="flex items-center gap-[5px]">
+          <Link
+            prefetch={true}
+            href={ROUTES.HOME}
+            className="flex items-center gap-[5px]"
+          >
             <span className="text-[#212121] font-light tracking-wide">
               {translation("name")}
             </span>
             <span className="text-[#005900] font-light tracking-wide">
               {translation("lastName")}
             </span>
-          </p>
+          </Link>
 
           <div className="flex items-center gap-[20px]">
             <div className="hidden sm:flex items-center gap-[10px] ">
@@ -35,7 +39,7 @@ const Header: React.FC = () => {
                 <Link
                   key={index}
                   prefetch={true}
-                  href={ROUTES.HOME}
+                  href={PAGE_LINK}
                   className={classNames(
                     "text-[#212121] font-light tracking-wide",
                     {

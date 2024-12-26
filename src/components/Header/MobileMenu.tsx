@@ -25,6 +25,7 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
             <Image
               src="/images/favicon.png"
               className="invert"
+              loading="eager"
               alt="favicon"
               height={100}
               width={100}
