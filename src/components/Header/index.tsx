@@ -61,7 +61,7 @@ const Header: React.FC = () => {
           </div>
         </Container>
       </header>
-      {menuStatus === "open" && <MobileMenu />}
+      {menuStatus === "open" && <MobileMenu setMenuStatus={setMenuStatus} />}
       <div className="h-[60px] -z-50 opacity-0" />
     </Fragment>
   );

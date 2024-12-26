@@ -1,13 +1,19 @@
 import { PERSONAL_INFO } from "@/constants/personalInfo";
 import { Container } from "@/components/Container";
 import { HEADER_LINKS } from "@/constants/routes";
+import { Dispatch, SetStateAction } from "react";
 import { PhoneIcon } from "../Icons/PhoneIcon";
 import { MailIcon } from "../Icons/MailIcon";
 import { useTranslations } from "next-intl";
+import { Link } from "@/navigation";
+import { MenuStatus } from ".";
 import Image from "next/image";
-import Link from "next/link";
 
-const MobileMenu = () => {
+interface Props {
+  setMenuStatus: Dispatch<SetStateAction<MenuStatus>>;
+}
+
+const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
   const translation = useTranslations("common");
   const personalInfoTranslation = useTranslations("personalInfo");
 
@@ -73,8 +79,10 @@ const MobileMenu = () => {
               <div className="flex flex-col gap-[10px] pl-[20px]">
                 {HEADER_LINKS.map(({ PAGE_LINK, TRANSLATION_TEXT }, index) => (
                   <Link
-                    href={PAGE_LINK}
                     key={index}
+                    prefetch={true}
+                    href={PAGE_LINK}
+                    onClick={() => setMenuStatus("close")}
                     className="tracking-wide text-[13px] max-w-[120px] w-full text-[#FFFFFF] font-bold underline"
                   >
                     {translation(TRANSLATION_TEXT)}
