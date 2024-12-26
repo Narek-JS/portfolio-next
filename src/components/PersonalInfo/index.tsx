@@ -25,19 +25,19 @@ const PersonalInfo: React.FC = () => {
 
       <div className="flex text-[#49515d] text-[13px] leading-[22px]">
         <div className="flex flex-col gap-[10px]">
-          <div className="w-[75px] flex items-center gap-[5px]">
+          <div className="w-[80px] flex items-center gap-[5px]">
             <AgeIcon />
             <span className="whitespace-nowrap">{translation("age")}</span>
           </div>
-          <div className="w-[75px] flex items-center gap-[5px]">
+          <div className="w-[80px] flex items-center gap-[5px]">
             <LocationIcon />
             <span className="whitespace-nowrap">{translation("address")}</span>
           </div>
-          <div className="w-[75px] flex items-center gap-[5px]">
+          <div className="w-[80px] flex items-center gap-[5px]">
             <PhoneIcon />
             <span className="whitespace-nowrap">{translation("phone")}</span>
           </div>
-          <div className="w-[75px] flex items-center gap-[5px]">
+          <div className="w-[80px] flex items-center gap-[5px]">
             <MailIcon />
             <span className="whitespace-nowrap">{translation("mail")}</span>
           </div>
