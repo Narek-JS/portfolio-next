@@ -3,6 +3,51 @@ import { Project } from "@/types/project";
 const PROJECTS: Array<Project> = [
   {
     desktopImage: {
+      href: "/images/ortakDesktop.png",
+      altTranslation: "ortakImageAlt",
+    },
+    mobileImage: {
+      href: "/images/ortakMobile.png",
+      altTranslation: "ortakImageAlt",
+    },
+    link: {
+      href: "https://ortak.me",
+      text: "Ortak",
+    },
+    descriptionTranslation: "ortakDescription",
+  },
+  {
+    desktopImage: {
+      href: "/images/sideDesktop.png",
+      altTranslation: "sideImageAlt",
+    },
+    mobileImage: {
+      href: "/images/sideMobile.png",
+      altTranslation: "sideImageAlt",
+    },
+    link: {
+      href: "https://side.xyz",
+      text: "Side",
+    },
+    descriptionTranslation: "sideDescription",
+  },
+  {
+    desktopImage: {
+      href: "/images/tourvangoDesktop.png",
+      altTranslation: "tourvangoImageAlt",
+    },
+    mobileImage: {
+      href: "/images/tourvangoMobile.png",
+      altTranslation: "tourvangoImageAlt",
+    },
+    link: {
+      href: "https://tourvango.com",
+      text: "Tourvango",
+    },
+    descriptionTranslation: "tourvangoDescription",
+  },
+  {
+    desktopImage: {
       href: "/images/fastTvDesktop.png",
       altTranslation: "fastTvImageAlt",
     },
@@ -16,6 +61,7 @@ const PROJECTS: Array<Project> = [
     },
     descriptionTranslation: "fastTvDescription",
   },
+
   {
     desktopImage: {
       href: "/images/weddingDesktop.png",
@@ -46,36 +92,7 @@ const PROJECTS: Array<Project> = [
     },
     descriptionTranslation: "iftaDescription",
   },
-  {
-    desktopImage: {
-      href: "/images/ortakDesktop.png",
-      altTranslation: "ortakImageAlt",
-    },
-    mobileImage: {
-      href: "/images/ortakMobile.png",
-      altTranslation: "ortakImageAlt",
-    },
-    link: {
-      href: "https://ortak.me",
-      text: "Ortak",
-    },
-    descriptionTranslation: "ortakDescription",
-  },
-  {
-    desktopImage: {
-      href: "/images/sideDesktop.png",
-      altTranslation: "sideImageAlt",
-    },
-    mobileImage: {
-      href: "/images/sideMobile.png",
-      altTranslation: "sideImageAlt",
-    },
-    link: {
-      href: "https://side.xyz",
-      text: "Side",
-    },
-    descriptionTranslation: "sideDescription",
-  },
+
   {
     desktopImage: {
       href: "/images/fastnewsDesktop.png",
@@ -154,22 +171,6 @@ const PROJECTS: Array<Project> = [
       text: "Trips and Fuel",
     },
     descriptionTranslation: "tripsandfuelDescription",
-  },
-
-  {
-    desktopImage: {
-      href: "/images/tourvangoDesktop.png",
-      altTranslation: "tourvangoImageAlt",
-    },
-    mobileImage: {
-      href: "/images/tourvangoMobile.png",
-      altTranslation: "tourvangoImageAlt",
-    },
-    link: {
-      href: "https://tourvango.com",
-      text: "Tourvango",
-    },
-    descriptionTranslation: "tourvangoDescription",
   },
 
   {

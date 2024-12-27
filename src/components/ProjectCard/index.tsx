@@ -4,8 +4,8 @@ import { ProjectInfoIcon } from "../Icons/ProjectInfoIcon";
 import { Project, ProjectDevice } from "@/types/project";
 import { DesktopIcon } from "../Icons/DesktopIcon";
 import { MobileIcon } from "../Icons/MobileIcon";
-import { Tooltip } from "@nextui-org/tooltip";
 import { useTranslations } from "next-intl";
+import { Tooltip } from "../Tooltip";
 import { useState } from "react";
 import classNames from "classnames";
 import Image from "next/image";
@@ -49,11 +49,7 @@ const ProjectCard: React.FC<Props> = (props) => {
       </div>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-[10px]">
-          <Tooltip
-            className="bg-[#FFFFFF] shadow-lg rounded p-[10px] max-w-[400px] max-h-[320px] overflow-auto custom-scrollbar"
-            content={translation(props.descriptionTranslation)}
-            placement="top-start"
-          >
+          <Tooltip content={translation(props.descriptionTranslation)}>
             <ProjectInfoIcon />
           </Tooltip>
           <DesktopIcon

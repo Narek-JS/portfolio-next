@@ -2,6 +2,7 @@
 
 import { MenuBurger } from "@/components/Header/MenuBurger";
 import { HEADER_LINKS, ROUTES } from "@/constants/routes";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Container } from "@/components/Container";
 import { Link, usePathname } from "@/navigation";
 import { useTranslations } from "next-intl";
@@ -23,6 +24,7 @@ const Header: React.FC = () => {
           <Link
             prefetch={true}
             href={ROUTES.HOME}
+            onClick={() => setMenuStatus("close")}
             className="flex items-center gap-[5px]"
           >
             <span className="text-[#212121] font-light tracking-wide">
@@ -54,14 +56,7 @@ const Header: React.FC = () => {
 
             <MenuBurger menuStatus={menuStatus} setMenuStatus={setMenuStatus} />
 
-            <button className="cursor-pointer">
-              <svg width="24px" height="24px" stroke="#005900" fill="none">
-                <title>{translation("language")}</title>
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12,22 C14.6666667,19.5757576 16,16.2424242 16,12 C16,7.75757576 14.6666667,4.42424242 12,2 C9.33333333,4.42424242 8,7.75757576 8,12 C8,16.2424242 9.33333333,19.5757576 12,22 Z" />
-                <path strokeLinecap="round" d="M2.5 9L21.5 9M2.5 15L21.5 15" />
-              </svg>
-            </button>
+            <LanguageSwitcher />
           </div>
         </Container>
       </header>
