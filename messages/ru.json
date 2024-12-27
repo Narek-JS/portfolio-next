@@ -9,7 +9,10 @@
     "pages": "Страницы",
     "language": "Язык",
     "bannerImageAlt": "Изображение Баннера",
-    "profileImageAlt": "Изображение Профиля"
+    "profileImageAlt": "Изображение Профиля",
+    "en": "English",
+    "hy": "Հայերեն",
+    "ru": "Русский"
   },
   "aboutMe": {
     "title-slice-one": "Обо",

@@ -47,7 +47,7 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
               </p>
               <div className="flex flex-col gap-[10px] pl-[20px]">
                 <div className="flex items-center">
-                  <p className="flex items-center gap-[5px] max-w-[120px] w-full text-[#FFFFFF] font-bold">
+                  <p className="flex items-center gap-[5px] max-w-[110px] w-full text-[#FFFFFF] font-bold">
                     <PhoneIcon />
                     {personalInfoTranslation("phone")}:
                   </p>
@@ -59,10 +59,10 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
                   </Link>
                 </div>
                 <div className="flex items-center">
-                  <p className="flex items-center gap-[5px] max-w-[120px] w-full text-[#FFFFFF] font-bold">
+                  <p className="flex items-center gap-[5px] max-w-[110px] w-full text-[#FFFFFF] font-bold">
                     <MailIcon />
                     {personalInfoTranslation("mail")}
-                    {" :"}
+                    {":"}
                   </p>
                   <Link
                     href={"tel:" + PERSONAL_INFO.email.link}
@@ -74,7 +74,7 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
               </div>
             </div>
             <div className="flex flex-col gap-[15px]">
-              <p className="text-[18px] text-[#FFFFFF] tracking-wide font-bold">
+              <p className="text-[18px] text-[#FFFFFF] tracking-wider font-bold">
                 {translation("pages")}
               </p>
               <div className="flex flex-col gap-[10px] pl-[20px]">
@@ -84,7 +84,7 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
                     prefetch={true}
                     href={PAGE_LINK}
                     onClick={() => setMenuStatus("close")}
-                    className="tracking-wide text-[13px] max-w-[120px] w-full text-[#FFFFFF] font-bold underline"
+                    className="tracking-wider text-[13px] max-w-[120px] w-full text-[#FFFFFF] font-bold underline"
                   >
                     {translation(TRANSLATION_TEXT)}
                   </Link>

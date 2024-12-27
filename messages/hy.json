@@ -9,7 +9,10 @@
     "pages": "Էջեր",
     "language": "Լեզու",
     "bannerImageAlt": "Պրոֆիլի Նկար",
-    "profileImageAlt": "Պրոֆիլի Նկար"
+    "profileImageAlt": "Պրոֆիլի Նկար",
+    "en": "Անգլերեն",
+    "hy": "Հայերեն",
+    "ru": "Ռուսերեն"
   },
   "aboutMe": {
     "title-slice-one": "Իմ",
