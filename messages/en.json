@@ -71,6 +71,10 @@
     "iguanImageAlt": "Iguan Systems project image",
     "iguanDescription": "Iguan Systems is a software development company based in Yerevan, Armenia, specializing in custom software solutions for clients in Europe and the United States. Established in 2009, the company offers a wide range of services, including web and mobile development, product engineering, design, testing, quality analysis, and technical support. Their portfolio spans various industries such as management, travel, health, and entertainment. Iguan Systems emphasizes transforming client ideas into fully realized products, providing end-to-end solutions tailored to specific needs."
   },
+  "resume": {
+    "title_slice_one": "Coding",
+    "title_slice_two": "Skills"
+  },
   "footer": {
     "text-one": "You have any questions? Contact with",
     "text-two": "Copyright © {year}, Portfolio, all rights reserved"
