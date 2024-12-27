@@ -13,7 +13,10 @@ const Footer = () => {
       <Container classname="flex flex-col items-center justify-center">
         <p className="text-[13px] text-[#49515d] text-center tracking-wide">
           {translation("text-one")}{" "}
-          <Link href={PERSONAL_INFO.email.link} className="underline">
+          <Link
+            href={"mailto:" + PERSONAL_INFO.phone.link}
+            className="underline"
+          >
             {PERSONAL_INFO.email.text}
           </Link>
         </p>

@@ -9,7 +9,10 @@
     "pages": "Pages",
     "language": "Language",
     "bannerImageAlt": "Banner Image",
-    "profileImageAlt": "Profile Image"
+    "profileImageAlt": "Profile Image",
+    "en": "English",
+    "hy": "Հայերեն",
+    "ru": "Русский"
   },
   "aboutMe": {
     "title-slice-one": "About",
