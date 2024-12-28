@@ -4,6 +4,7 @@ import { Container } from "@/components/Container";
 import { Banner } from "@/components/Banner";
 import { useTranslations } from "next-intl";
 import { ResumeList } from "@/components/ResumeList";
+import { Achievements } from "@/components/Achievements";
 
 const Resume: React.FC = () => {
   const translation = useTranslations("resume");
@@ -25,6 +26,7 @@ const Resume: React.FC = () => {
         </div>
 
         <ResumeList />
+        <Achievements />
       </div>
     </Container>
   );

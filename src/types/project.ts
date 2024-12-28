@@ -15,4 +15,16 @@ export interface Project {
   link: Link;
 }
 
+interface Translation {
+  en: string;
+  hy: string;
+  ru: string;
+}
+
+export interface Achievement {
+  title: string;
+  logo: string;
+  translations: Translation;
+}
+
 export type ProjectDevice = "desktop" | "mobile";
