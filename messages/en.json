@@ -75,6 +75,14 @@
     "title_slice_one": "Coding",
     "title_slice_two": "Skills"
   },
+  "achievements": {
+    "title": "Achievements",
+    "softDescription": "As a Next.js and React.js developer at Soft Construct, I actively contributed to designing and developing a variety of innovative and impactful projects. My responsibilities included creating dynamic, high-performance web applications and ensuring seamless user experiences. Leveraging the powerful features of Next.js, such as server-side rendering (SSR), static site generation (SSG), and API integration, I built scalable and efficient solutions tailored to diverse client needs.",
+    "logixDescription": "At Logix Software, I actively contribute to various projects, including the production-ready ifta.online. I adhere to software engineering principles such as the Single Responsibility Principle, Open-Closed Principle, and Liskov Substitution Principle. I prioritize writing clean code and participate in code reviews to ensure code quality and best practices. My work primarily involves using Javascript, React/Next.js.",
+    "iguanDescription": "At Iguan System, I served as a React.js Developer and played a pivotal role in developing an online tree shop. The project involved creating websites such as descamps.com, jalla.com, and hypsi.waveum.io. My responsibilities included using Javascript, React, Redux, Saga, and SCSS with BEM Methodology.",
+    "codetimeDescription": "At Code Time, I worked as a Javascript Developer, collaborating with my team to develop a constructor for creating landing pages, similar to Canva. My responsibilities included using Javascript, Next.js, Redux Toolkit, RTK Query, and Tailwind CSS.",
+    "universityDescription": "Bachelor of Science in the Faculty of Radiophysic, Yerevan State University."
+  },
   "footer": {
     "text-one": "You have any questions? Contact with",
     "text-two": "Copyright © {year}, Portfolio, all rights reserved"
