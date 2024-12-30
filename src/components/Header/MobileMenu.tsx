@@ -83,7 +83,7 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
                     prefetch={true}
                     href={PAGE_LINK}
                     onClick={() => setMenuStatus("close")}
-                    className="tracking-wider text-[13px] max-w-[120px] w-full text-[#FFFFFF] font-bold underline"
+                    className="tracking-widest text-[13px] max-w-[120px] w-full text-[#FFFFFF] font-bold underline"
                   >
                     {translation(TRANSLATION_TEXT)}
                   </Link>
