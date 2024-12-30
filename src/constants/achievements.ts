@@ -1,10 +1,10 @@
-import { Achievement } from "@/types/project";
+import { Achievement } from "@/types/achievement";
 
-export const ACHIEVEMENTS: Achievement[] = [
+export const ACHIEVEMENTS: Array<Achievement> = [
   {
     title: "Soft Construct",
     logo: {
-      altTranslation: "",
+      altTranslation: "softImageAlt",
       href: "/images/soft-logo.png",
     },
     descriptionTranslation: "softDescription",
@@ -12,7 +12,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     title: "Logix Software",
     logo: {
-      altTranslation: "",
+      altTranslation: "logixImageAlt",
       href: "/images/logix-logo.png",
     },
     descriptionTranslation: "logixDescription",
@@ -20,7 +20,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     title: "Iguan Systems",
     logo: {
-      altTranslation: "",
+      altTranslation: "iguanImageAlt",
       href: "/images/iguan-logo.png",
     },
     descriptionTranslation: "iguanDescription",
@@ -28,7 +28,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     title: "Code Time",
     logo: {
-      altTranslation: "",
+      altTranslation: "codetimeImageAlt",
       href: "/images/codetime-logo.png",
     },
     descriptionTranslation: "codetimeDescription",
@@ -36,7 +36,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     title: "University",
     logo: {
-      altTranslation: "",
+      altTranslation: "universityImageAlt",
       href: "/images/university-logo.png",
     },
     descriptionTranslation: "universityDescription",

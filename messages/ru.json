@@ -77,11 +77,21 @@
   },
   "achievements": {
     "title": "Достижения",
+
     "softDescription": "Как разработчик Next.js и React.js в Soft Construct, я активно участвовал в проектировании и разработке различных инновационных и значимых проектов.",
+    "softImageAlt": "Изображение Проекта Soft Construct",
+
     "logixDescription": "В Logix Software я активно участвовал в различных проектах, включая готовый к производству ifta.online.",
+    "logixImageAlt": "Изображение Проекта Logix Software",
+
     "iguanDescription": "В Игуан Системс я работал React.js разработчиком и сыграл ключевую роль в разработке интернет-магазина деревьев.",
+    "iguanImageAlt": "Изображение Проекта Iguan Systems",
+
     "codetimeDescription": "В Code Time я работал разработчиком Javascript, сотрудничая с командой для разработки конструктора для создания посадочных страниц, аналогичного Canva.",
-    "universityDescription": "Бакалавр наук на факультете радиофизики, Ереванский государственный университет."
+    "codetimeImageAlt": "Изображение Проекта Codetime",
+
+    "universityDescription": "Бакалавр наук на факультете радиофизики, Ереванский государственный университет.",
+    "universityImageAlt": "Изображение Проекта University"
   },
   "footer": {
     "text-one": "Есть вопросы? Свяжитесь с нами",

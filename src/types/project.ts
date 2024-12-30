@@ -15,10 +15,4 @@ export interface Project {
   link: Link;
 }
 
-export interface Achievement {
-  title: string;
-  logo: Image;
-  descriptionTranslation: string;
-}
-
 export type ProjectDevice = "desktop" | "mobile";

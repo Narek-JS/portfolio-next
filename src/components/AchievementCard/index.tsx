@@ -1,44 +1,35 @@
-import { FC } from "react";
+"use client";
+
+import classNames from "classnames";
 import Image from "next/image";
 
-interface AchievementCardProps {
-  companyName: string;
+interface Props {
   description: string;
-  logo: string;
   isReverse: boolean;
+  imageSrc: string;
+  imageAlt: string;
+  title: string;
 }
 
-const AchievementCard: FC<AchievementCardProps> = ({
-  companyName,
-  description,
-  logo,
-  isReverse,
-}) => {
+const AchievementCard: React.FC<Props> = (props) => {
   return (
     <div
-      className={`flex flex-col md:flex-row items-normal mb-10 ${
-        isReverse ? "md:flex-row-reverse" : ""
-      }`}
+      className={classNames("flex flex-col gap-[15px] md:flex-row", {
+        "md:flex-row-reverse": props.isReverse,
+      })}
     >
-      <div className="w-16 h-16 mx-auto md:mx-6 mb-4 md:mb-0 border-2 border-gray-300 rounded-full flex items-center justify-center">
-        <Image
-          src={logo}
-          alt={companyName}
-          width={48}
-          height={48}
-          className="object-contain rounded-full"
-          sizes="(max-width: 768px) 48px, 16vw"
-          style={{ width: "auto", height: "auto" }}
-        />
-      </div>
-
-      <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
-        <div className="bg-white p-4 md:p-6 rounded-lg shadow-md w-full text-center md:text-left">
-          <h3 className="text-lg font-semibold text-gray-700 mb-2">
-            {companyName}
-          </h3>
-          <p className="text-gray-600">{description}</p>
-        </div>
+      <Image
+        className="object-contain rounded-full w-[64px] h-[64px] border-[2px] border-[#d1d5db]"
+        src={props.imageSrc}
+        alt={props.imageAlt}
+        height={64}
+        width={64}
+      />
+      <div className="bg-[#FFFFFF] p-[16px] md:p-[24px] rounded-lg shadow-md w-full md:w-1/2 flex flex-col gap-[10px]">
+        <h3 className="text-[18px] font-bold text-[#212121]">{props.title}</h3>
+        <p className="text-[#49515d] text-[13px] leading-[22px]">
+          {props.description}
+        </p>
       </div>
     </div>
   );
