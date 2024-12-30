@@ -52,7 +52,7 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
                     {personalInfoTranslation("phone")}:
                   </p>
                   <Link
-                    href={"mailto:" + PERSONAL_INFO.phone.link}
+                    href={"tel:" + PERSONAL_INFO.phone.link}
                     className="tracking-wide text-[13px] text-[#FFFFFF] font-bold underline"
                   >
                     {PERSONAL_INFO.phone.text}
@@ -61,11 +61,10 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
                 <div className="flex items-center">
                   <p className="flex items-center gap-[5px] max-w-[110px] w-full text-[#FFFFFF] font-bold">
                     <MailIcon />
-                    {personalInfoTranslation("mail")}
-                    {":"}
+                    {personalInfoTranslation("mail")}:
                   </p>
                   <Link
-                    href={"tel:" + PERSONAL_INFO.email.link}
+                    href={"mailto:" + PERSONAL_INFO.email.link}
                     className="tracking-wide text-[13px] text-[#FFFFFF] font-bold underline"
                   >
                     {PERSONAL_INFO.email.text}
