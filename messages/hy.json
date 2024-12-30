@@ -75,6 +75,20 @@
     "title_slice_one": "Ծրագրավորման",
     "title_slice_two": "Հմտություններ"
   },
+  "achievements": {
+    "title": "Ձեռքբերումներ",
+
+    "softDescription": "Որպես Next.js և React.js ծրագրավորող Soft Construct-ում, ես ակտիվորեն մասնակցել եմ տարբեր նորարարական և ազդեցիկ նախագծերի նախագծմանը և զարգացմանը։",
+    "softImageAlt": "Soft Construct ընկերության Նկար",
+    "logixDescription": "Լոգիքս Սոֆտվերում ես ակտիվ մասնակցում եմ տարբեր նախագծերին, ներառյալ արտադրանքի պատրաստ ifta.online-ը։",
+    "logixImageAlt": "Logix Software ընկերության Նկար",
+    "iguanDescription": "Իգուան Սիստեմսում աշխատել եմ որպես React.js ծրագրավորող և առանցքային դեր խաղացել առցանց ծառերի խանութի մշակման գործում։",
+    "iguanImageAlt": "Iguan Systems ընկերության Նկար",
+    "codetimeDescription": "Կոդ Թայմում աշխատել եմ որպես Javascript ծրագրավորող՝ համագործակցելով թիմի հետ ստեղծելու Canva-ի նման վայրէջքի էջերի կոնստրուկտոր։",
+    "codetimeImageAlt": "Codetime ընկերության Նկար",
+    "universityDescription": "Բակալավրի աստիճան ռադիոֆիզիկայի ֆակուլտետում, Երևանի պետական համալսարան:",
+    "universityImageAlt": "University Նկար"
+  },
   "footer": {
     "text-one": "Ունե՞ք հարցեր: Կապվեք մեզ հետ՝",
     "text-two": "Հեղինակային իրավունք © {year}, Portfolio, բոլոր իրավունքները պաշտպանված են"
