@@ -29,7 +29,7 @@ const Home = () => {
             />
           </div>
           <div className="pt-[20px] flex flex-col items-center">
-            <p className="text-[26px] sm:text-[32px] font-bold text-[#FFFFFF] tracking-wide">
+            <p className="text-[24px] sm:text-[28px] md:text-[32px] font-bold text-[#FFFFFF] tracking-wide">
               {translation("name")} {translation("lastName")}
             </p>
             <p className="text-[#FFFFFF] text-[18px] tracking-wide">
