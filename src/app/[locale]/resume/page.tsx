@@ -1,10 +1,12 @@
 "use client";
 
+import { Achievements } from "@/components/Achievements";
+import { ResumeList } from "@/components/ResumeList";
+import { Educations } from "@/components/Educations";
 import { Container } from "@/components/Container";
 import { Banner } from "@/components/Banner";
 import { useTranslations } from "next-intl";
-import { ResumeList } from "@/components/ResumeList";
-import { Achievements } from "@/components/Achievements";
+import { DownloadCv } from "@/components/DownloadCv";
 
 const Resume: React.FC = () => {
   const commonTranslation = useTranslations("common");
@@ -13,8 +15,12 @@ const Resume: React.FC = () => {
     <Container classname="my-[20px]">
       <Banner classname="!h-[138px]" title={commonTranslation("resume")} />
       <div className="pt-[30px] shadow rounded-b-[15px] p-[40px] bg-[#FFFFFF] flex flex-col gap-[50px]">
-        <ResumeList />
         <Achievements />
+        <ResumeList />
+        <Educations />
+        <div className="w-full flex justify-center">
+          <DownloadCv />
+        </div>
       </div>
     </Container>
   );

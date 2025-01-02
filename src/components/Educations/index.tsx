@@ -1,11 +1,9 @@
-"use client";
-
 import { AchievementCard } from "@/components/AchievementCard";
-import { ACHIEVEMENTS } from "@/constants/achievements";
+import { EDUCATIONS } from "@/constants/educations";
 import { useTranslations } from "next-intl";
 
-const Achievements = () => {
-  const translation = useTranslations("achievements");
+const Educations = () => {
+  const translation = useTranslations("educations");
 
   return (
     <div className="w-full flex flex-col gap-[20px]">
@@ -13,13 +11,13 @@ const Achievements = () => {
         {translation("title")}
       </h2>
       <div className="w-full flex flex-col gap-[30px]">
-        {ACHIEVEMENTS.map((achievement, index) => (
+        {EDUCATIONS.map((education, index) => (
           <AchievementCard
-            description={translation(achievement.descriptionTranslation)}
-            imageAlt={translation(achievement.logo.altTranslation)}
-            imageSrc={achievement.logo.href}
+            description={translation(education.descriptionTranslation)}
+            imageAlt={translation(education.logo.altTranslation)}
+            title={translation(education.title)}
+            imageSrc={education.logo.href}
             isReverse={index % 2 !== 0}
-            title={achievement.title}
             key={index}
           />
         ))}
@@ -28,4 +26,4 @@ const Achievements = () => {
   );
 };
 
-export { Achievements };
+export { Educations };

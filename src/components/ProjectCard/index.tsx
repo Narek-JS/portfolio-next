@@ -1,11 +1,11 @@
 "use client";
 
-import { ProjectInfoIcon } from "../Icons/ProjectInfoIcon";
+import { ProjectInfoIcon } from "@/components/Icons/ProjectInfoIcon";
+import { DesktopIcon } from "@/components/Icons/DesktopIcon";
+import { MobileIcon } from "@/components/Icons/MobileIcon";
 import { Project, ProjectDevice } from "@/types/project";
-import { DesktopIcon } from "../Icons/DesktopIcon";
-import { MobileIcon } from "../Icons/MobileIcon";
+import { Tooltip } from "@/components/Tooltip";
 import { useTranslations } from "next-intl";
-import { Tooltip } from "../Tooltip";
 import { useState } from "react";
 import classNames from "classnames";
 import Image from "next/image";

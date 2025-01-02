@@ -1,12 +1,12 @@
 "use client";
 
+import { LocationIcon } from "@/components/Icons/LocationIcon";
 import { PERSONAL_INFO } from "@/constants/personalInfo";
-import { LocationIcon } from "../Icons/LocationIcon";
-import { PhoneIcon } from "../Icons/PhoneIcon";
-import { MailIcon } from "../Icons/MailIcon";
+import { PhoneIcon } from "@/components/Icons/PhoneIcon";
+import { MailIcon } from "@/components/Icons/MailIcon";
+import { AgeIcon } from "@/components/Icons/AgeIcon";
+import { DownloadCv } from "@/components/DownloadCv";
 import { useTranslations } from "next-intl";
-import { AgeIcon } from "../Icons/AgeIcon";
-import { DownloadCv } from "../DownloadCv";
 import Link from "next/link";
 
 const PersonalInfo: React.FC = () => {

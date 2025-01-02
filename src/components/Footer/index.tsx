@@ -1,8 +1,8 @@
 "use client";
 
 import { PERSONAL_INFO } from "@/constants/personalInfo";
+import { Container } from "@/components/Container";
 import { useTranslations } from "next-intl";
-import { Container } from "../Container";
 import Link from "next/link";
 
 const Footer = () => {
