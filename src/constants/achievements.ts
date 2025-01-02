@@ -33,12 +33,4 @@ export const ACHIEVEMENTS: Array<Achievement> = [
     },
     descriptionTranslation: "codetimeDescription",
   },
-  {
-    title: "University",
-    logo: {
-      altTranslation: "universityImageAlt",
-      href: "/images/university-logo.png",
-    },
-    descriptionTranslation: "universityDescription",
-  },
 ];

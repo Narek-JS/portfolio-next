@@ -1,7 +1,7 @@
 "use client";
 
+import { DownloadCv } from "@/components/DownloadCv";
 import { useTranslations } from "next-intl";
-import { DownloadCv } from "../DownloadCv";
 
 const Hobby: React.FC = () => {
   const translation = useTranslations("hobby");

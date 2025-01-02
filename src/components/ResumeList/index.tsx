@@ -1,6 +1,6 @@
+import { ResumeCard } from "@/components/ResumeCard";
 import { SKILLS } from "@/constants/skills";
 import { useTranslations } from "next-intl";
-import { ResumeCard } from "../ResumeCard";
 
 const ResumeList = () => {
   const translation = useTranslations("resume");
@@ -8,8 +8,8 @@ const ResumeList = () => {
   return (
     <div className="flex flex-col gap-[20px]">
       <div className="flex flex-col gap-[15px]">
-        <h1 className="font-bold tracking-wide flex items-center gap-[5px]">
-          <span className="text-[#212121] ">
+        <h1 className="text-[18px] font-bold tracking-wide flex items-center gap-[5px]">
+          <span className="text-[#212121]">
             {translation("title_slice_one")}
           </span>
           <span className="text-[#005900]">

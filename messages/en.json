@@ -6,10 +6,13 @@
     "resume": "Resume",
     "projects": "Projects",
     "contacts": "Contacts",
+    "position": "JavaScript Engineer",
     "pages": "Pages",
     "language": "Language",
     "bannerImageAlt": "Banner Image",
     "profileImageAlt": "Profile Image",
+    "linkedinImageAlt": "Linkedin Image",
+    "githubImageAlt": "Github Image",
     "en": "English",
     "hy": "Հայերեն",
     "ru": "Русский"
@@ -77,16 +80,20 @@
   },
   "achievements": {
     "title": "Achievements",
-    "softDescription": "As a Next.js and React.js developer at Soft Construct, I actively contributed to designing and developing a variety of innovative and impactful projects. My responsibilities included creating dynamic, high-performance web applications and ensuring seamless user experiences. Leveraging the powerful features of Next.js, such as server-side rendering (SSR), static site generation (SSG), and API integration, I built scalable and efficient solutions tailored to diverse client needs.",
+    "softDescription": "As a Senior Software Engineer in the Media Lab team at SoftConstruct, I work on FastTV, a platform offering live streaming for sports events (e.g., football, basketball) and a wide range of on-demand content, similar to Netflix. The product supports web applications, mobile apps (Android and iOS), and TV applications across various operating systems. Responsibilities include building mobile applications using React Native, developing and optimizing the FastTV web application using the technology stack, designing scalable and maintainable codebases adhering to clean architecture principles, and optimizing video streaming performance to ensure a seamless user experience. Key achievements include implementing design patterns like Atomic Design, Adapter, Observer, Singleton, Proxy, and Strategy to streamline development and maintain resource efficiency, with a focus on creating a user-friendly, resource-conscious system, especially for video-related functionality.",
     "softImageAlt": "Soft Construct company logo",
-    "logixDescription": "At Logix Software, I actively contribute to various projects, including the production-ready ifta.online. I adhere to software engineering principles such as the Single Responsibility Principle, Open-Closed Principle, and Liskov Substitution Principle. I prioritize writing clean code and participate in code reviews to ensure code quality and best practices. My work primarily involves using Javascript, React/Next.js.",
+    "logixDescription": "During my tenure as a Middle Software Engineer at Logix Software (March 2023 - February 2024), I contributed to projects such as IFTA and IRP. I focused on adhering to core software engineering principles, including the Single Responsibility Principle, Open-Closed Principle, and Liskov Substitution Principle. My responsibilities included writing clean and maintainable code and participating in code reviews to ensure high-quality and efficient development processes. The technology stack I utilized included JavaScript, Next.js, Redux Toolkit, RTK Query, and Tailwind CSS.",
     "logixImageAlt": "Logix Software company logo",
-    "iguanDescription": "At Iguan System, I served as a React.js Developer and played a pivotal role in developing an online tree shop. The project involved creating websites such as descamps.com, jalla.com, and hypsi.waveum.io. My responsibilities included using Javascript, React, Redux, Saga, and SCSS with BEM Methodology.",
+    "iguanDescription": "As a React.js Developer at Iguan System (January 2022 - March 2023), I played a key role in developing an online tree shop. The project involved building and maintaining an e-commerce platform, with notable examples including Descamps, Jalla, Hypsi. I utilized a technology stack comprising JavaScript, React, Redux, Saga, and SCSS with the BEM Methodology to ensure efficient, scalable, and maintainable solutions.",
     "iguanImageAlt": "Iguan Systems company logo",
-    "codetimeDescription": "At Code Time, I worked as a Javascript Developer, collaborating with my team to develop a constructor for creating landing pages, similar to Canva. My responsibilities included using Javascript, Next.js, Redux Toolkit, RTK Query, and Tailwind CSS.",
-    "codetimeImageAlt": "Codetime company logo",
-    "universityDescription": "Bachelor of Science in the Faculty of Radiophysic, Yerevan State University.",
-    "universityImageAlt": "University logo"
+    "codetimeDescription": "As a JavaScript Developer at Code Time (May 2021 - January 2022), I collaborated with my team to develop a landing page constructor, similar to Canva. The project involved designing and implementing a flexible and user-friendly tool for creating customizable landing pages. The technology stack included HTML, CSS, JavaScript, jQuery, and Gulp to ensure efficient and responsive solutions.",
+    "codetimeImageAlt": "Codetime company logo"
+  },
+  "educations": {
+    "title": "Education",
+    "universityTitle": "Yerevan State University",
+    "universityDescription": "I earned a Bachelor of Science degree from the Faculty of Radiophysics at Yerevan State University (2018–2023). My academic journey focused on understanding the principles of radiophysics, including wave propagation, signal processing, and advanced mathematical techniques. During my studies, I developed strong analytical and problem-solving skills, which have been instrumental in my career as a software engineer. This foundation also helped me bridge the gap between technical concepts and practical applications in software development.",
+    "universityImageAlt": "Yerevan State University Logo"
   },
   "footer": {
     "text-one": "You have any questions? Contact with",

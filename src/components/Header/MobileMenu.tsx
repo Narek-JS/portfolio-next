@@ -1,9 +1,9 @@
 import { PERSONAL_INFO } from "@/constants/personalInfo";
+import { PhoneIcon } from "@/components/Icons/PhoneIcon";
+import { MailIcon } from "@/components/Icons/MailIcon";
 import { Container } from "@/components/Container";
 import { HEADER_LINKS } from "@/constants/routes";
 import { Dispatch, SetStateAction } from "react";
-import { PhoneIcon } from "../Icons/PhoneIcon";
-import { MailIcon } from "../Icons/MailIcon";
 import { useTranslations } from "next-intl";
 import { Link } from "@/navigation";
 import { MenuStatus } from ".";
