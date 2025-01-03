@@ -48,11 +48,11 @@ const PROJECTS: Array<Project> = [
   },
   {
     desktopImage: {
-      href: "/images/tourvangoDesktop.png",
+      href: "/images/fastTvDesktop.png",
       altTranslation: "fastTvImageAlt",
     },
     mobileImage: {
-      href: "/images/tourvangoMobile.png",
+      href: "/images/fastTvMobile.png",
       altTranslation: "fastTvImageAlt",
     },
     link: {
