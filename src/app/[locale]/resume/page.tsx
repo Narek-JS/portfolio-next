@@ -3,10 +3,10 @@
 import { Achievements } from "@/components/Achievements";
 import { ResumeList } from "@/components/ResumeList";
 import { Educations } from "@/components/Educations";
+import { DownloadCv } from "@/components/DownloadCv";
 import { Container } from "@/components/Container";
 import { Banner } from "@/components/Banner";
 import { useTranslations } from "next-intl";
-import { DownloadCv } from "@/components/DownloadCv";
 
 const Resume: React.FC = () => {
   const commonTranslation = useTranslations("common");
