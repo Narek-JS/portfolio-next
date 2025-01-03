@@ -23,10 +23,11 @@ const MobileMenu: React.FC<Props> = ({ setMenuStatus }) => {
         <div className="flex flex-col gap-[60px]">
           <div className="flex items-center gap-[20px]">
             <Image
+              title="Favicon"
               src="/images/favicon.png"
               className="invert"
               loading="eager"
-              alt="favicon"
+              alt="Favicon"
               height={100}
               width={100}
             />

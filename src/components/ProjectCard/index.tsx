@@ -10,6 +10,7 @@ import { useState } from "react";
 import classNames from "classnames";
 import Image from "next/image";
 import Link from "next/link";
+import { useIsMobile } from "@/hooks/useIsMobile";
 
 interface Props extends Project {}
 
@@ -19,28 +20,30 @@ const ProjectCard: React.FC<Props> = (props) => {
 
   return (
     <div className="max-w-[290px] w-full p-[15px] flex flex-col justify-between gap-[15px] shadow-lg bg-[#FFFFFF] rounded-lg duration-200 hover:shadow-2xl">
-      <div className="w-full max-h-[350px] overflow-hidden">
+      <div className="w-full max-h-[350px] overflow-y-scroll sm:overflow-hidden scrollbar-hide">
         <Image
           className={classNames(
-            "w-full object-cover hover:animate-auto-scroll",
+            "w-full object-cover sm:hover:animate-auto-scroll",
             {
               hidden: projectDevice === "desktop",
             }
           )}
-          loading="eager"
+          title={translation(props.mobileImage.altTranslation)}
           alt={translation(props.mobileImage.altTranslation)}
           src={props.mobileImage.href}
+          loading="eager"
           height={345}
           width={260}
         />
         <Image
           loading="eager"
           className={classNames(
-            "w-full object-cover hover:animate-auto-scroll",
+            "w-full object-cover sm:hover:animate-auto-scroll",
             {
               hidden: projectDevice === "mobile",
             }
           )}
+          title={translation(props.desktopImage.altTranslation)}
           alt={translation(props.desktopImage.altTranslation)}
           src={props.desktopImage.href}
           height={345}
