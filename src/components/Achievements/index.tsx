@@ -17,6 +17,7 @@ const Achievements = () => {
           <AchievementCard
             description={translation(achievement.descriptionTranslation)}
             imageAlt={translation(achievement.logo.altTranslation)}
+            date={translation(achievement.dateTranslation)}
             imageSrc={achievement.logo.href}
             isReverse={index % 2 !== 0}
             title={achievement.title}

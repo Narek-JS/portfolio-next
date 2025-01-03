@@ -21,11 +21,12 @@ const Home = () => {
           <div className="relative rounded-[15px] w-[275px] h-[275px] border-[0.1px] border-[#FFFFFF] ">
             <div className="absolute inset-0 rounded-t-[15px] bg-gradient-to-br from-[#00a000] via-[#005900] to-[#444444] filter grayscale-[40%] blur-[3px] opacity-80" />
             <Image
+              title={translation("profileImageAlt")}
               alt={translation("profileImageAlt")}
+              className="relative object-cover"
               src="/images/profileImage.png"
               width={275}
               height={275}
-              className="relative object-cover"
             />
           </div>
           <div className="pt-[20px] flex flex-col items-center">
@@ -38,6 +39,7 @@ const Home = () => {
             <div className="flex items-center justify-center">
               <Link href={PERSONAL_INFO.linkedin.link} target="_blank">
                 <Image
+                  title={translation("linkedinImageAlt")}
                   alt={translation("linkedinImageAlt")}
                   src="/images/linkedin.png"
                   className="invert"
@@ -47,6 +49,7 @@ const Home = () => {
               </Link>
               <Link href={PERSONAL_INFO.github.link} target="_blank">
                 <Image
+                  title={translation("githubImageAlt")}
                   alt={translation("githubImageAlt")}
                   src="/images/github.png"
                   className="invert"

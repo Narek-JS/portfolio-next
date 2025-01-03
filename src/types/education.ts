@@ -7,4 +7,5 @@ export interface Education {
   title: string;
   logo: Image;
   descriptionTranslation: string;
+  dateTranslation: string;
 }

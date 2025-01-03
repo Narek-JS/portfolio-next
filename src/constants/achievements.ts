@@ -8,6 +8,7 @@ export const ACHIEVEMENTS: Array<Achievement> = [
       href: "/images/soft-logo.png",
     },
     descriptionTranslation: "softDescription",
+    dateTranslation: "softDate",
   },
   {
     title: "Logix Software",
@@ -16,6 +17,7 @@ export const ACHIEVEMENTS: Array<Achievement> = [
       href: "/images/logix-logo.png",
     },
     descriptionTranslation: "logixDescription",
+    dateTranslation: "logixDate",
   },
   {
     title: "Iguan Systems",
@@ -24,6 +26,7 @@ export const ACHIEVEMENTS: Array<Achievement> = [
       href: "/images/iguan-logo.png",
     },
     descriptionTranslation: "iguanDescription",
+    dateTranslation: "iguanDate",
   },
   {
     title: "Code Time",
@@ -32,5 +35,6 @@ export const ACHIEVEMENTS: Array<Achievement> = [
       href: "/images/codetime-logo.png",
     },
     descriptionTranslation: "codetimeDescription",
+    dateTranslation: "codetimeDate",
   },
 ];
