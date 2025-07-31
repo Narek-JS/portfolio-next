@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
 import "@/styles/globals.css";
+import { Analitics } from "@/components/Analitics";
 
 interface Props {
   children: React.ReactNode;
@@ -24,6 +25,7 @@ const RootLayout: React.FC<Props> = async ({ children, params }) => {
   return (
     <html lang={locale}>
       <body className="bg-[#f5f5f5] pb-[10px]">
+        <Analitics />
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
