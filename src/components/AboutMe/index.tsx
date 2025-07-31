@@ -4,17 +4,7 @@ import { useTranslations } from "next-intl";
 
 const AboutMe = () => {
   const translation = useTranslations("aboutMe");
-  const handleClick = () => {
-    fetch("/api/log", {
-      method: "POST",
-    });
-  };
 
-  return (
-    <button onClick={handleClick} className="cursor-pointer">
-      post request to server
-    </button>
-  );
   return (
     <div className="flex flex-col gap-[20px] max-w-[500px]">
       <h3 className="flex items-center gap-[5px]">
