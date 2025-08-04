@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/ua-parser-js": "^0.7.39",
     "classnames": "^2.5.1",
     "next": "15.0.4",
     "next-intl": "^3.26.0",
@@ -16,7 +17,8 @@
     "rc-dropdown": "^4.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-tooltip": "^5.28.0"
+    "react-tooltip": "^5.28.0",
+    "ua-parser-js": "^2.0.4"
   },
   "devDependencies": {
     "@types/node": "^20",
