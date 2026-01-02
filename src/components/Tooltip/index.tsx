@@ -66,7 +66,7 @@ const Tooltip: React.FC<Props> = ({ children, content }) => {
       <div
         role="tooltip"
         className={classNames(
-          "absolute -top-[270px] sm:-top-[330px] w-[280px] sm:w-[320px] h-[260px] sm:h-[320px] overflow-auto bg-[#FFFFFF] shadow-lg rounded p-[10px] custom-scrollbar transition-all duration-300 ease-in-out",
+          "absolute -top-[270px] sm:-top-[330px] w-[280px] sm:w-[320px] h-[260px] sm:h-[320px] overflow-auto bg-[#FFFFFF] shadow-lg rounded p-[10px] custom-scrollbar transition-all duration-300 ease-in-out text-[#212121] text-[13px] leading-[22px]",
           {
             "opacity-100 scale-100": visible,
             "opacity-0 scale-95 pointer-events-none": !visible,
