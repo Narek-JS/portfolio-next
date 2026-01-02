@@ -2,6 +2,15 @@ import { Achievement } from "@/types/achievement";
 
 export const ACHIEVEMENTS: Array<Achievement> = [
   {
+    title: "Digitain",
+    logo: {
+      altTranslation: "digitainImageAlt",
+      href: "/images/digitain-logo.png",
+    },
+    descriptionTranslation: "digitainDescription",
+    dateTranslation: "digitainDate",
+  },
+  {
     title: "Soft Construct",
     logo: {
       altTranslation: "softImageAlt",

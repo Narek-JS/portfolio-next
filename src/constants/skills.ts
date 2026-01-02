@@ -52,6 +52,14 @@ const SKILLS = [
     title: "Code Review",
     percent: 85,
   },
+  {
+    title: "PixiJS",
+    percent: 88,
+  },
+  {
+    title: "Module Federation / Microfrontend Architecture",
+    percent: 87,
+  },
 ];
 
 export { SKILLS };

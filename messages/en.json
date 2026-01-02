@@ -6,7 +6,7 @@
     "resume": "Resume",
     "projects": "Projects",
     "contacts": "Contacts",
-    "position": "JavaScript Engineer",
+    "position": "Senior Software Engineer",
     "pages": "Pages",
     "language": "Language",
     "bannerImageAlt": "Banner Image",
@@ -72,7 +72,9 @@
     "descampsImageAlt": "Descamps project image",
     "descampsDescription": "Descamps is a luxury French brand specializing in high-quality home textiles, including bedding, bath linens, and home décor items. Established in 1802, the company is renowned for its timeless elegance and refined craftsmanship. Descamps offers a diverse product range, such as blankets, cushions, candles, and home fragrances, catering to customers seeking sophisticated home essentials. In 2022, Descamps was acquired by the Zucchi Group, further expanding its presence in the luxury home textile market.",
     "iguanImageAlt": "Iguan Systems project image",
-    "iguanDescription": "Iguan Systems is a software development company based in Yerevan, Armenia, specializing in custom software solutions for clients in Europe and the United States. Established in 2009, the company offers a wide range of services, including web and mobile development, product engineering, design, testing, quality analysis, and technical support. Their portfolio spans various industries such as management, travel, health, and entertainment. Iguan Systems emphasizes transforming client ideas into fully realized products, providing end-to-end solutions tailored to specific needs."
+    "iguanDescription": "Iguan Systems is a software development company based in Yerevan, Armenia, specializing in custom software solutions for clients in Europe and the United States. Established in 2009, the company offers a wide range of services, including web and mobile development, product engineering, design, testing, quality analysis, and technical support. Their portfolio spans various industries such as management, travel, health, and entertainment. Iguan Systems emphasizes transforming client ideas into fully realized products, providing end-to-end solutions tailored to specific needs.",
+    "noahImageAlt": "NOAH project image",
+    "noahDescription": "NOAH (ՆՈԱ) is the official website for FC Noah, a professional football club based in Yerevan, Armenia. The platform provides comprehensive information about the club, including team news, match schedules, results, league standings, player information, and media content. The website features a modern, responsive design with multilingual support (Armenian, English, Russian) and includes sections for matches, team roster, academy information, media gallery, and ticket purchasing. As part of the Galaxsys team at Digitain, I contributed to developing this platform using modern web technologies, ensuring optimal performance and user experience for football fans and club supporters."
   },
   "resume": {
     "title_slice_one": "Coding",
@@ -80,9 +82,12 @@
   },
   "achievements": {
     "title": "Achievements",
+    "digitainDescription": "As a Senior Software Engineer at Digitain, I am part of the Galaxsys team, which is part of the Digitain group. Digitain is a leading iGaming software provider, offering modular sportsbook and casino solutions to over 180 partners in more than 100 countries. My role involves developing innovative gaming solutions using modern technologies including PixiJS for high-performance graphics rendering, Module Federation for microfrontend architecture, and other cutting-edge technologies. I contributed to the NOAH project, a comprehensive football club platform, and currently work on game development projects. My responsibilities include building scalable microfrontend applications, optimizing performance for complex gaming interfaces, and implementing modern architectural patterns to ensure maintainable and efficient codebases.",
+    "digitainImageAlt": "Digitain company logo",
+    "digitainDate": "Oct 2024 - Present",
     "softDescription": "As a Senior Software Engineer in the Media Lab team at SoftConstruct, I work on FastTV, a platform offering live streaming for sports events (e.g., football, basketball) and a wide range of on-demand content, similar to Netflix. The product supports web applications, mobile apps (Android and iOS), and TV applications across various operating systems. Responsibilities include building mobile applications using React Native, developing and optimizing the FastTV web application using the technology stack, designing scalable and maintainable codebases adhering to clean architecture principles, and optimizing video streaming performance to ensure a seamless user experience. Key achievements include implementing design patterns like Atomic Design, Adapter, Observer, Singleton, Proxy, and Strategy to streamline development and maintain resource efficiency, with a focus on creating a user-friendly, resource-conscious system, especially for video-related functionality.",
     "softImageAlt": "Soft Construct company logo",
-    "softDate": "Feb 2024 - Present",
+    "softDate": "Feb 2024 - Oct 2024",
     "logixDescription": "During my tenure as a Middle Software Engineer at Logix Software (March 2023 - February 2024), I contributed to projects such as IFTA and IRP. I focused on adhering to core software engineering principles, including the Single Responsibility Principle, Open-Closed Principle, and Liskov Substitution Principle. My responsibilities included writing clean and maintainable code and participating in code reviews to ensure high-quality and efficient development processes. The technology stack I utilized included JavaScript, Next.js, Redux Toolkit, RTK Query, and Tailwind CSS.",
     "logixImageAlt": "Logix Software company logo",
     "logixDate": "Mar 2023 - Feb 2024",

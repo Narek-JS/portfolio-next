@@ -3,6 +3,21 @@ import { Project } from "@/types/project";
 const PROJECTS: Array<Project> = [
   {
     desktopImage: {
+      href: "/images/noahDesktop.png",
+      altTranslation: "noahImageAlt",
+    },
+    mobileImage: {
+      href: "/images/noahMobile.png",
+      altTranslation: "noahImageAlt",
+    },
+    link: {
+      href: "https://noah.am",
+      text: "NOAH",
+    },
+    descriptionTranslation: "noahDescription",
+  },
+  {
+    desktopImage: {
       href: "/images/ortakDesktop.png",
       altTranslation: "ortakImageAlt",
     },
