@@ -13,6 +13,16 @@ import Link from "next/link";
 const Home = () => {
   const translation = useTranslations("common");
 
+  const notifySocialClick = (platform: "linkedin" | "github") => {
+    fetch("/api/social-click", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ platform }),
+    }).catch((err) => {
+      console.error("Failed to log social link click", err);
+    });
+  };
+
   return (
     <Container classname="my-[20px]">
       <div className="relative">
@@ -37,7 +47,12 @@ const Home = () => {
               {translation("position")}
             </p>
             <div className="flex items-center justify-center">
-              <Link href={PERSONAL_INFO.linkedin.link} target="_blank">
+              <Link
+                href={PERSONAL_INFO.linkedin.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => notifySocialClick("linkedin")}
+              >
                 <Image
                   title={translation("linkedinImageAlt")}
                   alt={translation("linkedinImageAlt")}
@@ -47,7 +62,12 @@ const Home = () => {
                   width={50}
                 />
               </Link>
-              <Link href={PERSONAL_INFO.github.link} target="_blank">
+              <Link
+                href={PERSONAL_INFO.github.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => notifySocialClick("github")}
+              >
                 <Image
                   title={translation("githubImageAlt")}
                   alt={translation("githubImageAlt")}
