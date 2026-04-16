@@ -25,7 +25,7 @@ const Header: React.FC = () => {
             prefetch={true}
             href={ROUTES.HOME}
             onClick={() => setMenuStatus("close")}
-            className="flex items-center gap-[5px]"
+            className="hidden sm:flex items-center gap-[5px]"
           >
             <span className="text-[#212121] font-light tracking-wide">
               {translation("name")}
@@ -35,8 +35,8 @@ const Header: React.FC = () => {
             </span>
           </Link>
 
-          <div className="flex items-center gap-[20px]">
-            <div className="hidden sm:flex items-center gap-[10px] ">
+          <div className="w-full sm:w-auto flex justify-between sm:items-center gap-[30px] sm:gap-[20px]">
+            <div className="flex items-center gap-[10px] ">
               {HEADER_LINKS.map(({ PAGE_LINK, TRANSLATION_TEXT }, index) => (
                 <Link
                   key={index}
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
                     "text-[#212121] font-light tracking-wide",
                     {
                       "border-b-[2px] border-[#005900]": pathname === PAGE_LINK,
-                    }
+                    },
                   )}
                 >
                   {translation(TRANSLATION_TEXT)}
@@ -54,9 +54,13 @@ const Header: React.FC = () => {
               ))}
             </div>
 
-            <MenuBurger menuStatus={menuStatus} setMenuStatus={setMenuStatus} />
-
-            <LanguageSwitcher />
+            <div className="flex items-center gap-[20px]">
+              <MenuBurger
+                menuStatus={menuStatus}
+                setMenuStatus={setMenuStatus}
+              />
+              <LanguageSwitcher />
+            </div>
           </div>
         </Container>
       </header>
