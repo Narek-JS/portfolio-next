@@ -6,7 +6,7 @@
     "resume": "Resume",
     "projects": "Projects",
     "contacts": "Contacts",
-    "position": "Senior Software Engineer",
+    "position": "Senior Frontend Engineer",
     "pages": "Pages",
     "language": "Language",
     "bannerImageAlt": "Banner Image",
@@ -20,8 +20,8 @@
   "aboutMe": {
     "title-slice-one": "About",
     "title-slice-two": "Me",
-    "description-slice-one": "Hello! I'm Narek Petrosyan, a passionate JavaScript Software Developer with a strong affinity for front-end development. I have a deep interest in building intuitive, dynamic, and user-friendly web and mobile applications. My professional journey has been fueled by a love for creating impactful digital experiences and continuously exploring new technologies.",
-    "description-slice-two": "Beyond my technical pursuits, I enjoy swimming and snowboarding, two activities that help me refresh my mind and think from new perspectives. These hobbies bring balance to my life and inspire creativity, whether I’m riding the slopes or diving into new projects."
+    "description-slice-one": "Hi! I’m Narek Petrosyan, a Senior Frontend Engineer with 6+ years of experience building scalable, high-performance web and mobile applications. I specialize in React, Next.js, TypeScript, and React Native, with hands-on experience in iGaming, live-streaming, and B2B platforms. I focus on clean architecture, performance optimization, and writing maintainable code that scales.",
+    "description-slice-two": "Currently, I’m building real-time games at Galaxsys (Digitain Group) and I’m open to relocating to the UAE for new opportunities. Outside of work, I enjoy swimming and snowboarding — activities that help me think clearly, stay creative, and bring balance to my work and personal life."
   },
   "personalInfo": {
     "title-slice-one": "Personal",
@@ -82,21 +82,21 @@
   },
   "achievements": {
     "title": "Achievements",
-    "digitainDescription": "As a Senior Software Engineer at Digitain, I am part of the Galaxsys team, which is part of the Digitain group. Digitain is a leading iGaming software provider, offering modular sportsbook and casino solutions to over 180 partners in more than 100 countries. My role involves developing innovative gaming solutions using modern technologies including PixiJS for high-performance graphics rendering, Module Federation for microfrontend architecture, and other cutting-edge technologies. I contributed to the NOAH project, a comprehensive football club platform, and currently work on game development projects. My responsibilities include building scalable microfrontend applications, optimizing performance for complex gaming interfaces, and implementing modern architectural patterns to ensure maintainable and efficient codebases.",
+    "digitainDescription": "Senior Frontend Engineer at Galaxsys (part of Digitain Group) — a leading iGaming software provider with 180+ partners across 100+ countries. Building real-time casino and crash-style games for international B2B partners using React, Pixi.js, and Matter.js. Architecting scalable micro-frontend systems with Webpack Module Federation. Implementing real-time game synchronization through WebSocket and Socket.io. Mentoring junior developers and collaborating with product, design, and backend teams across a 15-person frontend organization.",
     "digitainImageAlt": "Digitain company logo",
-    "digitainDate": "Oct 2024 - Present",
-    "softDescription": "As a Senior Software Engineer in the Media Lab team at SoftConstruct, I work on FastTV, a platform offering live streaming for sports events (e.g., football, basketball) and a wide range of on-demand content, similar to Netflix. The product supports web applications, mobile apps (Android and iOS), and TV applications across various operating systems. Responsibilities include building mobile applications using React Native, developing and optimizing the FastTV web application using the technology stack, designing scalable and maintainable codebases adhering to clean architecture principles, and optimizing video streaming performance to ensure a seamless user experience. Key achievements include implementing design patterns like Atomic Design, Adapter, Observer, Singleton, Proxy, and Strategy to streamline development and maintain resource efficiency, with a focus on creating a user-friendly, resource-conscious system, especially for video-related functionality.",
+    "digitainDate": "May 2024 - Present",
+    "softDescription": "Senior Software Engineer in the Media Lab team at SoftConstruct, building FastTV — a Netflix-style live-streaming and video-on-demand platform for sports and entertainment, available on web, mobile (iOS/Android), and Smart TV. Developed and maintained the FastTV web application using Next.js, TypeScript, and GraphQL. Delivered the FastTV TV app across many Smart TV operating systems, including older and low-resource devices. Improved playback on legacy TVs by optimizing memory, rendering, and resources. Built responsive cross-platform features for iOS and Android using React Native. Applied design patterns (Atomic, Adapter, Observer, Singleton, Strategy) to keep the codebase scalable.",
     "softImageAlt": "Soft Construct company logo",
-    "softDate": "Feb 2024 - Oct 2024",
-    "logixDescription": "During my tenure as a Middle Software Engineer at Logix Software (March 2023 - February 2024), I contributed to projects such as IFTA and IRP. I focused on adhering to core software engineering principles, including the Single Responsibility Principle, Open-Closed Principle, and Liskov Substitution Principle. My responsibilities included writing clean and maintainable code and participating in code reviews to ensure high-quality and efficient development processes. The technology stack I utilized included JavaScript, Next.js, Redux Toolkit, RTK Query, and Tailwind CSS.",
+    "softDate": "Feb 2022 - Apr 2024",
+    "logixDescription": "Software Engineer at Logix Software, contributing to scalable B2B web applications (ifta.online, irpregistrationservices.com) in a fast-paced agile environment. Built responsive, high-performance interfaces with React, Next.js, JavaScript (ES6+), Tailwind CSS, and Redux Toolkit (RTK Query). Integrated REST APIs with efficient client-side data fetching, caching, and state management. Applied SOLID principles and clean architecture for maintainable, scalable codebases. Participated in agile ceremonies and code reviews with cross-functional teams.",
     "logixImageAlt": "Logix Software company logo",
-    "logixDate": "Mar 2023 - Feb 2024",
-    "iguanDescription": "As a React.js Developer at Iguan System (January 2022 - March 2023), I played a key role in developing an online tree shop. The project involved building and maintaining an e-commerce platform, with notable examples including Descamps, Jalla, Hypsi. I utilized a technology stack comprising JavaScript, React, Redux, Saga, and SCSS with the BEM Methodology to ensure efficient, scalable, and maintainable solutions.",
+    "logixDate": "Feb 2021 - Jan 2022",
+    "iguanDescription": "React.js Developer at Iguan Systems, contributing to e-commerce platforms including Descamps, Jalla, and Hypsi. Built scalable, maintainable solutions using JavaScript, React, Redux, Saga, and SCSS with BEM methodology. Focused on delivering responsive, user-friendly interfaces.",
     "iguanImageAlt": "Iguan Systems company logo",
-    "iguanDate": "Jan 2022 - Mar 2023",
-    "codetimeDescription": "As a JavaScript Developer at Code Time (May 2021 - January 2022), I collaborated with my team to develop a landing page constructor, similar to Canva. The project involved designing and implementing a flexible and user-friendly tool for creating customizable landing pages. The technology stack included HTML, CSS, JavaScript, jQuery, and Gulp to ensure efficient and responsive solutions.",
+    "iguanDate": "Sep 2020 - Jan 2021",
+    "codetimeDescription": "JavaScript Developer at Code Time, collaborating on a landing page constructor (similar to Canva). Designed and implemented a flexible, user-friendly tool for building customizable landing pages using HTML, CSS, JavaScript, jQuery, and Gulp.",
     "codetimeImageAlt": "Codetime company logo",
-    "codetimeDate": "May 2021 - Jan 2022"
+    "codetimeDate": "May 2020 - Sep 2020"
   },
   "educations": {
     "title": "Education",

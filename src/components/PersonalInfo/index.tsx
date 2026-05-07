@@ -4,7 +4,6 @@ import { LocationIcon } from "@/components/Icons/LocationIcon";
 import { PERSONAL_INFO } from "@/constants/personalInfo";
 import { PhoneIcon } from "@/components/Icons/PhoneIcon";
 import { MailIcon } from "@/components/Icons/MailIcon";
-import { AgeIcon } from "@/components/Icons/AgeIcon";
 import { DownloadCv } from "@/components/DownloadCv";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -26,10 +25,6 @@ const PersonalInfo: React.FC = () => {
       <div className="flex text-[#49515d] text-[13px] leading-[22px]">
         <div className="flex flex-col gap-[10px]">
           <div className="w-[85px] flex items-center gap-[5px]">
-            <AgeIcon />
-            <span className="whitespace-nowrap">{translation("age")}</span>
-          </div>
-          <div className="w-[85px] flex items-center gap-[5px]">
             <LocationIcon />
             <span className="whitespace-nowrap">{translation("address")}</span>
           </div>
@@ -44,7 +39,6 @@ const PersonalInfo: React.FC = () => {
         </div>
 
         <div className="flex flex-col gap-[10px]">
-          <p>{new Date().getFullYear() - 2000}</p>
           <p>{translation("city")}</p>
           <Link className="underline" href={"tel:" + PERSONAL_INFO.phone.link}>
             {PERSONAL_INFO.phone.text}
